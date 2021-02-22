@@ -96,6 +96,8 @@
 (lsp-treemacs-sync-mode 1)
 
 (use-package lsp-java :config (add-hook 'java-mode-hook 'lsp))
+;; if java.version < 11, use old jdt
+(setq lsp-java-jdt-download-url  "https://download.eclipse.org/jdtls/milestones/0.57.0/jdt-language-server-0.57.0-202006172108.tar.gz")
 (use-package dap-java :ensure nil)
 
 ;; ----------------------
