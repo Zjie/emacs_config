@@ -1,3 +1,5 @@
+;; need to install java && ccls & gopls manually
+
 (require 'package)
 
 ;; Add melpa to your packages repositories
