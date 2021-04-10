@@ -3,6 +3,7 @@
 ;; 2. install metals https://scalameta.org/metals/docs/editors/emacs.html
 ;; 3. for scala project, install bloop, and export build(.bloop) https://scalacenter.github.io/bloop/docs/build-tools/maven
 ;; 4. for c++/c project, install ccls & bazel_generate https://github.com/MaskRay/ccls/wiki/lsp-mode#ccls-navigate https://github.com/grailbio/bazel-compilation-database https://www.cnblogs.com/echo579/p/6644284.html
+;; 5. for go project, install gopls https://github.com/golang/tools/tree/master/gopls
 
 (setq package-archives '(("gnu" . "http://mirrors.ustc.edu.cn/elpa/gnu/")
                          ("melpa" . "http://mirrors.ustc.edu.cn/elpa/melpa/")
