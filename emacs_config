@@ -172,3 +172,8 @@
 
 (desktop-save-mode 1)
 (treemacs)
+
+;; install gpg2 manually
+(require 'epa-file)
+(custom-set-variables '(epg-gpg-program  "/usr/bin/gpg2"))
+(epa-file-enable)
